@@ -16,6 +16,8 @@ function plFunction()
     if functions[pressedButton] ~= nil then
         functions[pressedButton]()
     end
+
+    pressedButton = nil
 end
 
 function drawButtons()
